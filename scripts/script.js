@@ -28,7 +28,7 @@ const challenge2 = document.getElementById("challenge2");
 const getValue2 = document.getElementById("get-value2");
 
 getValue2.addEventListener("click", () => {
-    if (challenge2.value === "NCF{i_am_at_my_weakest_point} ") {
+    if (challenge2.value === "NCF{stillHidingAndUGotMe} ") {
         const bg = document.getElementById("webexpo");
         bg.style.backgroundColor = "lightgreen";
 
