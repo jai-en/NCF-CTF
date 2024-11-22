@@ -5,22 +5,6 @@ getValue1.addEventListener("click", () => {
     if (challenge1.value === "NCF{YoU_g0T_mE_b@by}") {
         const bg = document.getElementById("crypto");
         bg.style.backgroundColor = "lightgreen";
-
-        localStorage.setItem("challengeValue", challenge1.value);
-        localStorage.setItem("cryptoBgColor", "lightgreen");
-    }
-});
-
-window.addEventListener("load", () => {
-    const savedValue = localStorage.getItem("challengeValue");
-    const savedColor = localStorage.getItem("cryptoBgColor");
-
-    if (savedValue) {
-        challenge1.value = savedValue;
-    }
-
-    if (savedColor) {
-        crypto.style.backgroundColor = savedColor;
     }
 });
 
@@ -31,9 +15,6 @@ getValue2.addEventListener("click", () => {
     if (challenge2.value === "NCF{stillHidingAndUGotMe} ") {
         const bg = document.getElementById("webexpo");
         bg.style.backgroundColor = "lightgreen";
-
-        localStorage.setItem("challengeValue", challenge2.value);
-        localStorage.setItem("cryptoBgColor", "lightgreen");
     }
 });
 
@@ -44,9 +25,6 @@ getValue3.addEventListener("click", () => {
     if (challenge3.value === "NCF{m3t4d4t4_r3v34ls_s3cr3ts}") {
         const bg = document.getElementById("forensics");
         bg.style.backgroundColor = "lightgreen";
-
-        localStorage.setItem("challengeValue", challenge3.value);
-        localStorage.setItem("cryptoBgColor", "lightgreen");
     }
 });
 
@@ -57,9 +35,6 @@ getValue4.addEventListener("click", () => {
     if (challenge4.value === "NCF{iAmHere}") {
         const bg = document.getElementById("binary");
         bg.style.backgroundColor = "lightgreen";
-
-        localStorage.setItem("challengeValue", challenge4.value);
-        localStorage.setItem("cryptoBgColor", "lightgreen");
     }
 });
 
@@ -70,8 +45,5 @@ getValue5.addEventListener("click", () => {
     if (challenge5.value === "NCF{korea}") {
         const bg = document.getElementById("osint");
         bg.style.backgroundColor = "lightgreen";
-
-        localStorage.setItem("challengeValue", challenge5.value);
-        localStorage.setItem("cryptoBgColor", "lightgreen");
     }
 });
