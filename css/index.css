@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .challenge-box {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+  }
+
+  .challenge-box h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  .challenge-box h3 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+
+  .challenge-box input[type="text"] {
+    margin-bottom: 10px;
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .challenge-box input[type="button"] {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; 
+    line-height: 1; 
+  }
+  
+  .challenge-box input[type="button"]:hover {
+    background-color: #0056b3;
+  }
+  
+  .desc {
+    display: inline-block; 
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px; 
+    line-height: 1; 
+    text-align: center;
+  }
+  
+  .desc:hover {
+    background-color: #0056b3;
+  }
+  
